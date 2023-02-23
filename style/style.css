@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: transparent /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: rgb(66, 88, 64);    /* color of the scroll thumb */
+border-radius: 5px;       /* roundness of the scroll thumb */
+
+}
+
+
+
+.container{
+    width: 100vw;
+}
+
+.container .header-group{
+    width: 100%;
+    background-color: rgb(228, 233, 217);
+    padding: 1.5rem;
+    box-shadow: rgba(78, 84, 78, 0.222) 0px 10px 10px -10px;
+    margin-bottom: 5px;
+}
+
+.container .header-group h2{
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(127, 142, 129);
+    letter-spacing: 3px;
+    text-shadow: 2.5px 2.5px 4px rgba(51,79,45,0.44);
+}
+
+.container .header-group .filter{
+    display: flex;
+    justify-content: center;
+}
+
+.container .header-group .filter .select-box{
+    width: fit-content;
+    position: relative;
+}
+
+.container .header-group .filter .select-box select{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    appearance: none;
+    position: relative;
+    background-color: rgb(238, 247, 239);
+    color: rgb(62, 83, 52);
+    cursor: pointer;
+}
+
+.container .header-group .filter .select-box select:hover{
+    border: 1px solid rgb(43, 67, 43);
+}
+
+.container .header-group .filter .select-box select:focus{
+    outline: none;
+    border: 1px solid currentColor;
+}
+
+.container .header-group .filter .select-box select option:only-of-type{
+    background-color: rgb(198, 208, 198);
+    color:rgb(245, 247, 243);
+}
+
+.container .header-group .filter .select-box i{
+    font-size: .8rem;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 18px;
+    color:  rgb(62, 83, 52);
+    cursor: pointer;
+    user-select: none;
+    pointer-events: none;
+}
+
+.container .ingrediente{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    border-bottom: solid 1.2px #00000013;
+    padding: 1.6rem;
+    background-color: rgb(244, 244, 243);
+    border-left: solid 7px rgb(53, 77, 53);
+    margin-bottom: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container .ingrediente img{
+    height: 5rem;
+}
+
+.container .ingrediente p{
+    color: rgb(53, 77, 53);
+}

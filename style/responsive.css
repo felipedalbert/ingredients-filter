@@ -1,0 +1,31 @@
+@media (max-width: 425px) {
+    .container .header-group h2{
+        font-size: 1.4rem;
+    }
+    
+    .container .header-group .filter .select-box select{
+        padding: 0.4rem 0.4em 0.4rem  0.9rem;
+        width: 165px;
+        font-size: .8rem;
+    }
+
+    .container .header-group .filter .select-box i{
+        font-size: .7rem;
+        right: 18px;
+    }
+    
+    .container .ingrediente{
+        padding: 1.4rem;
+        column-gap: 12px;
+        border-left: solid 5px rgb(53, 77, 53);
+    }
+    
+    .container .ingrediente img{
+        height: 4rem;
+    }
+
+    .container .ingrediente p{
+        font-size: 0.9rem;
+    }
+
+}
