@@ -5,14 +5,14 @@ const ingredientes = [
         img: 'carne.png'
     },
     {
-        nome: 'cebola roxa',
+        nome: 'molho vermelho',
         valorAdicional: 0.5,
-        img: 'cebola-roxa.png'
+        img: 'molho-vermelho.png'
     },
     {
-        nome: 'cebolinha',
+        nome: 'salmão',
         valorAdicional: 0.5,
-        img: 'cebolinha.png'
+        img: 'salmao.png'
     },
     {
         nome: 'cenoura',
@@ -20,9 +20,19 @@ const ingredientes = [
         img: 'cenoura.png'
     },
     {
+        nome: 'repolho roxo',
+        valorAdicional: 0.5,
+        img: 'repolho-roxo.png'
+    },
+    {
         nome: 'chuchu',
         valorAdicional: 0.5,
         img: 'chuchu.png'
+    },
+    {
+        nome: 'tomate cereja',
+        valorAdicional: 0.5,
+        img: 'tomate-cereja.png'
     },
     {
         nome: 'couve flor',
@@ -40,9 +50,9 @@ const ingredientes = [
         img: 'rucula.png'
     },
     {
-        nome: 'salmão',
+        nome: 'batata doce',
         valorAdicional: 0.5,
-        img: 'salmao.png'
+        img: 'batata-doce.png'
     },
     {
         nome: 'salsinha',
@@ -55,9 +65,9 @@ const ingredientes = [
         img: 'tilapia.png'
     },
     {
-        nome: 'abobora',
+        nome: 'cebola roxa',
         valorAdicional: 0.5,
-        img: 'abobora.png'
+        img: 'cebola-roxa.png'
     },
     {
         nome: 'abobrinha',
@@ -65,39 +75,19 @@ const ingredientes = [
         img: 'abobrinha.png'
     },
     {
-        nome: 'acelga',
-        valorAdicional: 0.5,
-        img: 'acelga.png'
-    },
-    {
-        nome: 'agrião',
-        valorAdicional: 0.5,
-        img: 'agriao.png'
-    },
-    {
-        nome: 'alface americana',
-        valorAdicional: 0.5,
-        img: 'alface-americana.png'
-    },
-    {
         nome: 'alface crespa',
         valorAdicional: 0.5,
         img: 'alface-crespa.png'
     },
     {
-        nome: 'batata doce',
+        nome: 'abobora',
         valorAdicional: 0.5,
-        img: 'batata-doce.png'
+        img: 'abobora.png'
     },
     {
-        nome: 'batata palha',
+        nome: 'agrião',
         valorAdicional: 0.5,
-        img: 'batata-palha.png'
-    },
-    {
-        nome: 'berinjela',
-        valorAdicional: 0.5,
-        img: 'berinjela.png'
+        img: 'agriao.png'
     },
     {
         nome: 'beterraba',
@@ -110,14 +100,14 @@ const ingredientes = [
         img: 'brocolis.png'
     },
     {
+        nome: 'alface americana',
+        valorAdicional: 0.5,
+        img: 'alface-americana.png'
+    },
+    {
         nome: 'camarão',
         valorAdicional: 0.5,
         img: 'camarao.png'
-    },
-    {
-        nome: 'tomate cereja',
-        valorAdicional: 0.5,
-        img: 'tomate-cereja.png'
     },
     {
         nome: 'tomate',
@@ -125,9 +115,19 @@ const ingredientes = [
         img: 'tomate.png'
     },
     {
+        nome: 'cebolinha',
+        valorAdicional: 0.5,
+        img: 'cebolinha.png'
+    },
+    {
         nome: 'espinafre',
         valorAdicional: 0.5,
         img: 'espinafre.png'
+    },
+    {
+        nome: 'acelga',
+        valorAdicional: 0.5,
+        img: 'acelga.png'
     },
     {
         nome: 'frango',
@@ -150,14 +150,14 @@ const ingredientes = [
         img: 'molho-mostarda.png'
     },
     {
+        nome: 'berinjela',
+        valorAdicional: 0.5,
+        img: 'berinjela.png'
+    },
+    {
         nome: 'molho pimenta',
         valorAdicional: 0.5,
         img: 'molho-pimenta.png'
-    },
-    {
-        nome: 'molho vermelho',
-        valorAdicional: 0.5,
-        img: 'molho-vermelho.png'
     },
     {
         nome: 'pepino',
@@ -165,14 +165,14 @@ const ingredientes = [
         img: 'pepino.png'
     },
     {
+        nome: 'batata palha',
+        valorAdicional: 0.5,
+        img: 'batata-palha.png'
+    },
+    {
         nome: 'queijo ralado',
         valorAdicional: 0.5,
         img: 'queijo-ralado.png'
-    },
-    {
-        nome: 'repolho roxo',
-        valorAdicional: 0.5,
-        img: 'repolho-roxo.png'
     },
     {
         nome: 'repolho',

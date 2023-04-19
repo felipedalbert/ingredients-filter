@@ -41,7 +41,6 @@ function fnIteradorDeContudo(itensFiltrados){
     }
 }
 
-
 export default{
     listaSemFiltro: fnListaSemFiltro,
     filtroAlfabetico : fnFiltroAlfabetico,
